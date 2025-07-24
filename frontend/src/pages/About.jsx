@@ -1,5 +1,7 @@
 import React from "react";
 import { BarChart3, PieChart, TrendingUp, Database, Filter, Calendar, Users, Shield, Target, Zap, Award, CheckCircle } from "lucide-react";
+import { Link } from "react-router-dom";
+
 
 const About = () => {
   const features = [
@@ -237,9 +239,9 @@ const About = () => {
             <p className="text-gray-300 mb-6">
               Start making data-driven decisions today with our powerful analytics platform.
             </p>
-            <a href="/" className="px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-400 hover:to-blue-400 text-white rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-cyan-500/25">
+            <Link to="/"  className="px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-400 hover:to-blue-400 text-white rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-cyan-500/25">
               Get Started Now
-            </a>
+            </Link>
           </div>
         </div>
       </div>

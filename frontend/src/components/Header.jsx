@@ -1,12 +1,8 @@
 import React, { useState } from "react";
 import { Menu, X, Upload, Home, Info } from "lucide-react";
+import { Link } from "react-router-dom";
 
-// Mock Link component for demonstration - replace with react-router-dom Link
-const Link = ({ to, children, className, ...props }) => (
-  <a href={to} className={className} {...props}>
-    {children}
-  </a>
-);
+
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -27,7 +23,7 @@ const Header = () => {
         <div className="flex justify-between items-center py-4">
           {/* Logo/Brand */}
           <div className="flex-shrink-0">
-            <Link 
+            <Link
               to="/" 
               className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-red-500 to-red-400 bg-clip-text text-transparent hover:from-red-400 hover:to-red-300 transition-all duration-300"
             >
