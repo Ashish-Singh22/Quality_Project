@@ -1,5 +1,7 @@
 
-const backendDomain = "http://127.0.0.1:5000";
+// const backendDomain = "http://127.0.0.1:5000";
+const backendDomain = "https://quality-project-backend-python.onrender.com";
+
 
 const SummaryApiPython = {
   uploadController: {

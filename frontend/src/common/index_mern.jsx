@@ -1,5 +1,6 @@
 
-const backendDomain = "http://localhost:8080"
+// const backendDomain = "http://localhost:8080"
+const backendDomain = "https://quality-project-backend-mern.onrender.com";
 
 const SummaryApiMern = {
   clUpload: {
